@@ -1,0 +1,118 @@
+.flex-container {
+    /* We first create a flex layout context */
+    display: flex;
+    
+    /* Then we define the flow direction 
+       and if we allow the items to wrap 
+     * Remember this is the same as:
+     * flex-direction: row;
+     * flex-wrap: wrap;
+     */
+    flex-flow: row wrap;
+    
+    /* Then we define how is distributed the remaining space */
+    justify-content: space-around;
+    
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  .flex-container-1 {
+    display: flex;
+    
+    /* Then we define the flow direction 
+       and if we allow the items to wrap 
+     * Remember this is the same as:
+     * flex-direction: row;
+     * flex-wrap: wrap;
+     */
+    flex-flow: row wrap;
+    
+    /* Then we define how is distributed the remaining space */
+    justify-content: space-around;
+    
+    padding: 0;
+    margin: 0;
+
+  }
+  
+  .flex-item {
+    background: #EE2E84;
+    /* padding: 5px; */
+    width: 370px;
+    height: 150px;
+   margin-top:5px
+  }
+
+  .flex-item-1 {
+    background:	#F5C6D6;
+    width: 1700px;
+    height: 150px;
+   
+  }
+
+  .flex-container-2 {
+    display: flex;
+    
+    /* Then we define the flow direction 
+       and if we allow the items to wrap 
+     * Remember this is the same as:
+     * flex-direction: row;
+     * flex-wrap: wrap;
+     */
+    /* flex-flow: row wrap; */
+    
+    /* Then we define how is distributed the remaining space */
+    justify-content: space-around;
+    
+    padding: 0;
+    margin: 0;
+
+  }
+  
+  .flex-item-2 {
+    background:#85CFD8;
+    width: 980px;
+    height: 150px;
+    padding: 5px;
+    margin: 5px;
+  }
+  ul {
+    list-style: none; /* Remove list bullets */
+    padding: 0;
+    margin: 0;
+  }
+  
+  .flex-container-3 {
+    display: flex;
+    
+    /* Then we define the flow direction 
+       and if we allow the items to wrap 
+     * Remember this is the same as:
+     * flex-direction: row;
+     * flex-wrap: wrap;
+     */
+    /* flex-flow: row wrap; */
+    
+    /* Then we define how is distributed the remaining space */
+    justify-content: space-around;
+    
+    padding: 0;
+    margin: 0;
+
+  }
+  
+  .flex-item-4 {
+    background:	#8DC63F;
+    width: 980px;
+    height: 150px;
+   
+  }
+
+  .flex-item-5 {
+    background:	#E76E34;
+    width: 530px;
+    height: 150px;
+   
+  }
